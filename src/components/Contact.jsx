@@ -6,7 +6,7 @@ const Contact = () => {
     <div name="contact" className="w-full bg-white text-gray-900">
       <div className="max-w-[1240px] mx-auto px-6 py-16">
         <div className="grid lg:grid-cols-2 items-start  justify-center gap-10 w-full">
-          <div className="flex flex-col gap-3 lg:max-w-[550px]">
+          <div className="flex flex-col gap-3">
             <h1 className="text-4xl text-center md:text-left lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
             </h1>
@@ -32,7 +32,7 @@ const Contact = () => {
               <div className="flex gap-2 items-center">
                 <ImLocation2 className="text-[#8A0000] text-xl" />
                 <p className="text-lg font-semibold hover:text-[#8A0000] cursor-pointer duration-300">
-                  City of General Trias, Cavite{" "}
+                  City of General Trias, Cavite
                 </p>
               </div>
             </div>
