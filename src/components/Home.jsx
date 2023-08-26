@@ -20,7 +20,7 @@ const Home = () => {
               Ready to embark on an unforgettable journey? Choose your ride from
               our premium selection of motorcycles and experience the road like
               never before. Your next adrenaline-filled escapade is just a click
-              away. Let's ride together!
+              away. Let's ride together!!!
             </p>
             <div className="flex items-center gap-4 mt-4">
               <button className="py-3 px-7 shadow-lg rounded border border-[#8A0000] hover:bg-white hover:text-[#8A0000] bg-[#8A0000] text-white duration-300 font-semibold flex items-center gap-2">
