@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div name="contact" className="w-full bg-white text-gray-900">
       <div className="max-w-[1240px] mx-auto px-6 py-16">
-        <div className="grid lg:grid-cols-2 items-start  justify-center gap-10 w-full">
+        <div className="grid lg:grid-cols-2 items-start  justify-center gap-10">
           <div className="flex flex-col gap-3">
             <h1 className="text-4xl text-center md:text-left lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
