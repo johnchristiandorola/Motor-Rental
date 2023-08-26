@@ -18,7 +18,7 @@ const About = () => {
               Browse, Pick and Reserve.
             </h1>
             <p className="mt-12 text-lg">
-              Motor rental was founded by a group of motorcycle enthusiasts who
+              Motorent was founded by a group of motorcycle enthusiasts who
               share a passion for exploration and adventure. Our mission is to
               provide riders with a seamless renting experience and help them
               create unforgettable memories on the road.
