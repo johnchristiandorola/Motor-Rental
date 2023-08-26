@@ -11,7 +11,7 @@ const Book = () => {
       <div className="w-full bg-white text-gray-900">
         <div className="flex flex-col items-center justify-center my-32">
           <div className="max-w-[1240px] px-6">
-            <div>
+            <div className="w-full">
               <div className="bg-gray-100 rounded p-12 shadow-xl ">
                 <h1 className="text-2xl font-bold uppercase text-[#8A0000] text-center mb-10">
                   Book a Motorcycle
