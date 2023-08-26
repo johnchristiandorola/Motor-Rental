@@ -1,13 +1,17 @@
 # MOTOR RENTAL PROJECT
 
-## `TECH STACKS`
+## TECH STACKS
 
-ReactJs
-TailwindCss
-HTML
-CSS
-JAVASCRIPT
+### ReactJs
+
+### TailwindCss
+
+### HTML
+
+### CSS
+
+### JAVASCRIPT
 
 ### `$ cd motor-rental`
 
-### `npm start`
+### `$ npm start`
