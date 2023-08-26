@@ -10,7 +10,7 @@ const Home = () => {
       <div className="max-w-[1240px] mx-auto px-6 ">
         <div className="flex flex-col lg:flex-row justify-center gap-2 items-center lg:justify-between w-full">
           <div div className="flex flex-col">
-            <h1 className="text-2xl xl:text-3xl font-semibold">
+            <h1 className="text-2xl xl:text-3xl font-semibold text-[#8A0000]">
               Ride the Thrill: Motorcycle Rentals
             </h1>
             <h1 className="text-4xl xl:text-5xl font-bold my-2">

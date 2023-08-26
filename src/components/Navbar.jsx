@@ -12,12 +12,14 @@ const Navbar = () => {
     <div className="w-full fixed  h-[80px] bg-white shadow text-gray-900 z-10">
       <div className="flex justify-between items-center max-w-[1240px] px-6 py-3 mx-auto">
         {/* MOBILE */}
-        <div className="flex items-center gap-2 cursor-pointer">
-          <MdOutlineTwoWheeler size={50} className="text-[#8A0000]" />
-          <div className="flex flex-col items-center justify-center">
-            <h1 className="font-extrabold text-2xl uppercase">Motorent</h1>
+        <a href="/">
+          <div className="flex items-center gap-2 cursor-pointer pt-1 lg:pt-0">
+            <MdOutlineTwoWheeler size={50} className="text-[#8A0000]" />
+            <div className="flex flex-col items-center justify-center">
+              <h1 className="font-extrabold text-2xl uppercase">Motorent</h1>
+            </div>
           </div>
-        </div>
+        </a>
         <div
           onClick={handleChange}
           className="cursor-pointer lg:hidden hover:text-[#8A0000] z-20 duration-300"
@@ -48,7 +50,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="testimonials" smooth={true} offset={0} duration={500}>
+            <Link to="testimonials" smooth={true} offset={-90} duration={500}>
               Testimonials
             </Link>
           </li>
@@ -128,7 +130,7 @@ const Navbar = () => {
               onClick={handleChange}
               to="testimonials"
               smooth={true}
-              offset={0}
+              offset={-50}
               duration={500}
             >
               Testimonials
@@ -136,18 +138,23 @@ const Navbar = () => {
           </li>
 
           <li className="pr-0">
-            <Link to="contact" smooth={true} offset={0} duration={500}>
+            <Link
+              to="contact"
+              onClick={handleChange}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
               Contact
             </Link>
           </li>
-          <div className="flex gap-2 text-2xl">
-            <button className="p-2 shadow-lg rounded borderborder-gray-900 hover:text-white hover:bg-gray-900  duration-300 ">
-              Log in
-            </button>
-            <button className="p-2 shadow-lg rounded border border-[#8A0000] hover:bg-white hover:text-[#8A0000] bg-[#8A0000] text-white duration-300 ">
-              Register
-            </button>
-          </div>
+
+          <button className="p-2 shadow-lg rounded border bg-zinc-200 border-gray-900 hover:text-white hover:bg-gray-900  duration-300 max-w-sm w-full">
+            Log in
+          </button>
+          <button className="p-2 shadow-lg rounded border border-[#8A0000] hover:bg-white hover:text-[#8A0000] bg-[#8A0000] text-white duration-300 max-w-sm w-full">
+            Register
+          </button>
         </ul>
       </div>
     </div>
