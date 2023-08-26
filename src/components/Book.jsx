@@ -47,7 +47,7 @@ const Book = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                   <label
-                    className="ml-1 font-semibold flex items-center gap-2"
+                    className="ml-1 font-semibold flex items-center gap-2 overflow-hidden"
                     htmlFor=""
                   >
                     <BsFillPersonFill size={20} className=" text-[#8A0000]" />
@@ -68,7 +68,7 @@ const Book = () => {
                     Email
                   </label>
                   <input
-                    className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border"
+                    className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border overflow-hidden"
                     type="email"
                     placeholder="Enter your email"
                   />
@@ -78,11 +78,14 @@ const Book = () => {
                     className="ml-1 font-semibold flex items-center gap-2"
                     htmlFor=""
                   >
-                    <BiSolidContact size={20} className=" text-[#8A0000]" />
+                    <BiSolidContact
+                      size={20}
+                      className=" text-[#8A0000] overflow-hidden"
+                    />
                     Contact Number
                   </label>
                   <input
-                    className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border"
+                    className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border overflow-hidden"
                     type="tel"
                     pattern="[0-9] {11}"
                     required
