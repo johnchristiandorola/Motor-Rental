@@ -31,7 +31,7 @@ const Book = () => {
                       />
                       Select your Motorcycle
                     </label>
-                    <select name="" id="" className="p-3 ">
+                    <select name="" id="" className="p-3 w-auto">
                       <option value="">Select your motorcycle</option>
                       {dataHonda.map((item, index) => (
                         <option key={index} value="">
@@ -55,7 +55,7 @@ const Book = () => {
                       Name
                     </label>
                     <input
-                      className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border"
+                      className="p-3 w-auto focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border"
                       type="text"
                       placeholder="Enter your name"
                     />
@@ -69,7 +69,7 @@ const Book = () => {
                       Email
                     </label>
                     <input
-                      className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border overflow-hidden"
+                      className="p-3 w-auto focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border overflow-hidden"
                       type="email"
                       placeholder="Enter your email"
                     />
@@ -86,7 +86,7 @@ const Book = () => {
                       Contact Number
                     </label>
                     <input
-                      className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border overflow-hidden"
+                      className="p-3 w-auto focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border overflow-hidden"
                       type="tel"
                       pattern="[0-9] {11}"
                       required
@@ -105,7 +105,7 @@ const Book = () => {
                       Pick-up Date
                     </label>
                     <input
-                      className="p-3  focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border"
+                      className="p-3 w-auto focus:outline-none focus:ring-1 focus:ring-gray-900 text-gray-900  rounded border"
                       type="date"
                       placeholder="Choose a date:"
                     />
