@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gray-100 p-6 rounded w-full ">
+          <div className="bg-gray-100 p-6 rounded shadow-xl w-full ">
             <form action="" className="flex flex-col gap-6">
               <div className="flex flex-col gap-3">
                 <label htmlFor="" className="font-semibold text-xl ">
