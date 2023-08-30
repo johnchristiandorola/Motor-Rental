@@ -77,19 +77,19 @@ export const dataYamaha = [
 export const dataTestimonials = [
   {
     id: 1,
-    person: "John D.",
+    person: "John Christian D.",
     description: "Adventurous Traveler",
     line: "Renting a motorbike from this website was the best decision I made for my vacation. The process was smooth, and the bike was in excellent condition. It added a whole new level of freedom to explore the beautiful landscapes. I'll definitely be using this service again!",
   },
   {
     id: 2,
-    person: "Sarah M.",
+    person: "Brice S.",
     description: "City Explorer",
     line: "I needed a convenient way to navigate the city during my business trip, and this motor rental service delivered beyond my expectations. The variety of options and the ease of booking online made everything hassle-free. I zipped through traffic and reached my meetings on time. Highly recommended!",
   },
   {
     id: 3,
-    person: "Alex T.",
+    person: "Karl Jan R.",
     description: "Family Vacation",
     line: "Traveling with my family is always exciting but transportation can be a challenge. Renting a motorbike from here made our vacation unforgettable. We saved time, enjoyed the scenic routes, and created lasting memories. The bikes were reliable, and safety gear was provided. Thumbs up!",
   },
