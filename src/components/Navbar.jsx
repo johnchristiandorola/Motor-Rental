@@ -9,9 +9,9 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-screen fixed h-[80px] mx-auto bg-white shadow text-gray-900 z-10">
+    <div className="w-screen fixed h-[80px] px-6 mx-auto bg-white shadow text-gray-900 z-10">
       <div className="max-w-[1240px] mx-auto">
-        <div className="flex justify-between items-center px-6 py-3 mx-auto">
+        <div className="flex justify-between items-center py-3 mx-auto">
           {/* MOBILE */}
           <a href="/">
             <div className="flex items-center gap-2 cursor-pointer pt-1 lg:pt-0">
