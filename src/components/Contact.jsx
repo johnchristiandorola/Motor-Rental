@@ -7,8 +7,8 @@ const Contact = () => {
       name="contact"
       className="w-full bg-white text-gray-900 py-16 px-6 mx-auto"
     >
-      <div className="max-w-[1240px] ">
-        <div className="flex flex-col lg:flex-row items-start justify-center gap-10 mx-auto">
+      <div className="max-w-[1240px] mx-auto ">
+        <div className="flex flex-col lg:flex-row items-start justify-center gap-10">
           <div className="flex flex-col gap-3 text-center">
             <h1 className="text-4xl  lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
