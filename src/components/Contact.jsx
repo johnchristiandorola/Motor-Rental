@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full bg-white text-gray-900 my-16 flex flex-col items-center justify-center px-6 mx-auto"
+      className="w-full bg-white text-gray-900 py-16 px-6 mx-auto"
     >
       <div className="max-w-[1240px] ">
         <div className="flex flex-col lg:flex-row items-start justify-center gap-10 mx-auto">
@@ -68,14 +68,14 @@ const Contact = () => {
                 <label htmlFor="" className="font-semibold text-xl ">
                   Tell us about it <span className="text-[#8A0000]">*</span>
                 </label>
-                <textarea
+                <input
                   className="p-2 text-black border bg-zinc-50"
                   name=""
                   id=""
                   cols="30"
                   rows="10"
                   placeholder="Enter your message here..."
-                ></textarea>
+                ></input>
               </div>
 
               <button className="bg-[#8A0000] font-semibold tracking-widest hover:bg-white hover:text-[#8A0000] hover:border-[#8A0000] duration-300 rounded p-3 text-white border ">
