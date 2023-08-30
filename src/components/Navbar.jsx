@@ -78,7 +78,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "lg:hidden absolute z-10 w-full h-screen bg-zinc-100 top-0 left-0 px-6 mx-auto"
+            ? "lg:hidden absolute z-10 w-full h-screen bg-zinc-100 top-0 left-0 px-6 pr-10  mx-auto"
             : "hidden"
         }
       >
