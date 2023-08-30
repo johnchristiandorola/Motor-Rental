@@ -18,7 +18,7 @@ const Book = () => {
                 </h1>
                 <form
                   action=""
-                  className="grid md:grid-cols-2 lg:grid-cols-3 gap-10"
+                  className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 w-fit"
                 >
                   <div className="flex flex-col gap-2">
                     <label
