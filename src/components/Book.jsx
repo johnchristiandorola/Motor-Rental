@@ -8,7 +8,7 @@ import { BsFillCalendar2CheckFill } from "react-icons/bs";
 const Book = () => {
   return (
     <div name="book">
-      <div className="w-full bg-white text-gray-900 mx-auto px-6">
+      <div className="w-full bg-white text-gray-900 mx-auto px-6 flex flex-col items-center justify-center">
         <div className="max-w-[1240px] flex items-center justify-center my-16 ">
           <div className="bg-gray-100 rounded p-12 shadow-xl ">
             <h1 className="text-2xl font-bold uppercase text-[#8A0000] text-center mb-10">
