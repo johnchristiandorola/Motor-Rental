@@ -3,12 +3,9 @@ import { AiFillPhone, AiFillMail } from "react-icons/ai";
 import { ImLocation2 } from "react-icons/im";
 const Contact = () => {
   return (
-    <div
-      name="contact"
-      className="w-full bg-white text-gray-900 my-16 px-6 mx-auto"
-    >
-      <div className="max-w-[1240px] flex flex-col items-center justify-center">
-        <div className="grid lg:grid-cols-2 items-start justify-items-center gap-10">
+    <div name="contact" className="w-full bg-white text-gray-900 my-16 mx-auto">
+      <div className="max-w-[1240px] flex flex-col items-center justify-center mx-auto">
+        <div className="grid lg:grid-cols-2 gap-10 justify-center mx-6">
           <div className="flex flex-col gap-3 text-center">
             <h1 className="text-4xl  lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
