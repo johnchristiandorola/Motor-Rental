@@ -11,7 +11,6 @@ import "./styles.css";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
-import Overlay from "./Overlay";
 
 const Honda = () => {
   const [rent, setRent] = useState(false);
