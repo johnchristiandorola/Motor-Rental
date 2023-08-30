@@ -8,7 +8,7 @@ const Contact = () => {
       className="w-full bg-white text-gray-900 my-16 px-6 mx-auto"
     >
       <div className="max-w-[1240px] flex flex-col items-center justify-center">
-        <div className="grid lg:grid-cols-2 items-start  justify-center gap-10">
+        <div className="grid lg:grid-cols-2 items-start justify-items-center gap-10">
           <div className="flex flex-col gap-3 text-center">
             <h1 className="text-4xl  lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
@@ -19,7 +19,7 @@ const Contact = () => {
               MOTORENT for all your motorbike rental needs.
             </p>
 
-            <div className="flex flex-col gap-3 my-4">
+            <div className="flex flex-col gap-3 my-4 justify-center items-center">
               <div className="flex gap-2 items-center">
                 <AiFillPhone className="text-[#8A0000] text-xl" />
                 <p className="text-lg font-semibold hover:text-[#8A0000] cursor-pointer duration-300">
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gray-100 p-6 rounded">
+          <div className="bg-gray-100 p-6 rounded mx-6 w-full">
             <form action="" className="flex flex-col gap-6">
               <div className="flex flex-col gap-3">
                 <label htmlFor="" className="font-semibold text-xl ">
