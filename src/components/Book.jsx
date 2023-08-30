@@ -8,8 +8,8 @@ import { BsFillCalendar2CheckFill } from "react-icons/bs";
 const Book = () => {
   return (
     <div name="book">
-      <div className="w-full bg-white text-gray-900  px-6">
-        <div className="mx-auto max-w-[1240px] flex flex-col items-center justify-center  my-16 ">
+      <div className="w-full bg-white text-gray-900  ">
+        <div className="mx-auto max-w-[1240px] flex flex-col items-center justify-center  my-16 px-6">
           <div className="bg-gray-100 rounded p-12 shadow-xl mx-6">
             <h1 className="text-2xl font-bold uppercase text-[#8A0000] text-center mb-10">
               Book a Motorcycle
