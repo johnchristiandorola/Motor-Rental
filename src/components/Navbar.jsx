@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div className="w-full fixed  h-[80px] bg-white shadow text-gray-900 z-10">
-      <div className="max-w-[1240px]">
+      <div className="max-w-[1240px] mx-auto">
         <div className="flex justify-between items-center  px-6 py-3 mx-auto">
           {/* MOBILE */}
           <a href="/">
