@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="w-full mx-auto">
+    <div className="">
       <Navbar />
       <Home />
       <Book />
