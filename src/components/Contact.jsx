@@ -4,8 +4,8 @@ import { ImLocation2 } from "react-icons/im";
 const Contact = () => {
   return (
     <div name="contact" className="w-screen bg-white text-gray-900 mx-auto">
-      <div className="max-w-[1240px] mx-auto px-6 py-16">
-        <div className="grid lg:grid-cols-2 items-start  justify-center gap-10">
+      <div className="max-w-[1240px] mx-auto  py-16">
+        <div className="grid lg:grid-cols-2 items-start px-6 justify-center gap-10">
           <div className="flex flex-col gap-3">
             <h1 className="text-4xl text-center md:text-left lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="bg-gray-100 p-6 rounded ">
             <form action="" className="flex flex-col gap-6">
               <div className="flex flex-col gap-3">
                 <label htmlFor="" className="font-semibold text-xl ">
