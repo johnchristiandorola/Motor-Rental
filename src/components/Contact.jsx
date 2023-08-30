@@ -5,10 +5,10 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full bg-white text-gray-900 my-16 flex flex-col items-center justify-center px-6"
+      className="w-full bg-white text-gray-900 my-16 flex flex-col items-center justify-center "
     >
-      <div className="max-w-[1240px]  ">
-        <div className="grid lg:grid-cols-2 gap-10 justify-center mx-auto">
+      <div className="max-w-[1240px] ">
+        <div className="flex flex-col lg:flex-row items-start justify-center gap-10 mx-auto px-6">
           <div className="flex flex-col gap-3 text-center">
             <h1 className="text-4xl  lg:text-5xl uppercase font-extrabold text-[#8A0000]">
               Get in Touch!
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gray-100 p-6 rounded mx-6 ">
+          <div className="bg-gray-100 p-6 rounded w-full ">
             <form action="" className="flex flex-col gap-6">
               <div className="flex flex-col gap-3">
                 <label htmlFor="" className="font-semibold text-xl ">
