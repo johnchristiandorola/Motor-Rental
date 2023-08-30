@@ -9,7 +9,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-full fixed h-[80px] px-6 mx-auto bg-white shadow text-gray-900 z-10">
+    <div className="min-w-full fixed h-[80px] px-6 mx-auto bg-white shadow text-gray-900 z-10">
       <div className="max-w-[1240px] mx-auto">
         <div className="flex justify-between items-center py-3 mx-auto">
           {/* MOBILE */}
