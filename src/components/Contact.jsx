@@ -68,14 +68,14 @@ const Contact = () => {
                 <label htmlFor="" className="font-semibold text-xl ">
                   Tell us about it <span className="text-[#8A0000]">*</span>
                 </label>
-                <input
+                <textarea
                   className="p-2 text-black border bg-zinc-50"
                   name=""
                   id=""
                   cols="30"
                   rows="10"
                   placeholder="Enter your message here..."
-                ></input>
+                ></textarea>
               </div>
 
               <button className="bg-[#8A0000] font-semibold tracking-widest hover:bg-white hover:text-[#8A0000] hover:border-[#8A0000] duration-300 rounded p-3 text-white border ">
