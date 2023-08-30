@@ -3,7 +3,7 @@ import { AiFillPhone, AiFillMail } from "react-icons/ai";
 import { ImLocation2 } from "react-icons/im";
 const Contact = () => {
   return (
-    <div name="contact" className="w-screen bg-white text-gray-900 mx-auto">
+    <div name="contact" className="w-full bg-white text-gray-900 mx-auto">
       <div className="max-w-[1240px] mx-auto  py-16">
         <div className="grid lg:grid-cols-2 items-start px-6 justify-center gap-10">
           <div className="flex flex-col gap-3">
