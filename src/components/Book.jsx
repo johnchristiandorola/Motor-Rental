@@ -18,11 +18,11 @@ const Book = () => {
                 </h1>
                 <form
                   action=""
-                  className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 w-fit"
+                  className="grid md:grid-cols-2 lg:grid-cols-3 gap-10"
                 >
                   <div className="flex flex-col gap-2">
                     <label
-                      className="ml-1 font-semibold flex items-center gap-2"
+                      className="ml-1 font-semibold flex items-center gap-2 mx-auto"
                       htmlFor=""
                     >
                       <MdOutlineTwoWheeler
