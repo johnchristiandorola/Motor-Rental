@@ -74,6 +74,10 @@ const Contact = () => {
                   placeholder="Enter your message here..."
                 ></textarea>
               </div>
+
+              <button className="bg-[#8A0000] font-semibold tracking-widest hover:bg-white hover:text-[#8A0000] hover:border-[#8A0000] duration-300 rounded p-3 text-white border ">
+                Submit
+              </button>
             </form>
           </div>
         </div>
